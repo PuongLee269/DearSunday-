@@ -11,12 +11,15 @@ Static Vietnamese blog for DearSunday private homestay. The site is focused on h
 - `generate_articles.py`: regenerates the six article pages
 - `dist/`: static deployment package for Codex Sites and GitHub Pages
 
-## Before publishing
+## Publishing
 
-- Set canonical links and `sitemap.xml` after the final public hostname is chosen.
+- Public URL: https://puonglee269.github.io/DearSunday-/
+- GitHub Pages publishes `main` from the repository root.
+- After editing articles, run `python -B generate_articles.py` and then `python -B prepare_publish.py`. The second command sets canonical, social and article image URLs, refreshes the sitemap, and synchronizes `dist/`.
+- If changing the public hostname, update `BASE` in `prepare_publish.py` before running it.
 - Recheck the service windows and activity details with the Page before each substantive update.
 - Keep the precise address private; it is shared by DearSunday after booking.
 - Keep OAI-SearchBot allowed in `robots.txt` if ChatGPT Search visibility is desired.
 - Submit the final sitemap in Google Search Console after the site is public and verified.
 
-The current work is an unpublished draft. A public deployment and Google indexing are separate steps; neither ranking nor inclusion is guaranteed.
+Google indexing is separate from deployment. Verify the URL-prefix property in Search Console and submit `sitemap.xml`; neither ranking nor inclusion is guaranteed. On a GitHub project site, crawler rules are controlled by the domain-root robots.txt; the project-local robots.txt is included for migration to a dedicated domain.

@@ -1,0 +1,49 @@
+"""Refresh public metadata after generating articles; keep the static bundle in sync."""
+from pathlib import Path
+from html import escape, unescape
+from urllib.parse import urljoin
+import json
+import re
+import shutil
+from xml.etree.ElementTree import Element, SubElement, ElementTree
+
+ROOT = Path(__file__).resolve().parent
+BASE = "https://puonglee269.github.io/DearSunday-/"
+pages = [ROOT / "index.html", ROOT / "about.html", *sorted((ROOT / "blog").glob("*.html"))]
+urls = []
+for path in pages:
+    relative = path.relative_to(ROOT).as_posix()
+    url = BASE if relative == "index.html" else urljoin(BASE, relative)
+    text = path.read_text(encoding="utf-8")
+    text = re.sub(r"<!-- public-meta -->.*?<!-- /public-meta -->", "", text, flags=re.S)
+    title = unescape(re.search(r"<title>(.*?)</title>", text, re.S)[1])
+    desc = unescape(re.search(r'<meta name="description" content="([^"]*)"', text)[1])
+    image = re.search(r'<img[^>]+src="([^"]+)"', text)[1]
+    image_url = urljoin(urljoin(BASE, relative), image)
+    def update_schema(match):
+        data = json.loads(match[1])
+        data["url"] = url
+        if data.get("@type") == "BlogPosting":
+            data["mainEntityOfPage"] = {"@type": "WebPage", "@id": url}
+            data["image"] = [image_url]
+        return '<script type="application/ld+json">' + json.dumps(data, ensure_ascii=False, separators=(",", ":")) + '</script>'
+    text = re.sub(r'<script type="application/ld\+json">(.*?)</script>', update_schema, text, flags=re.S)
+    fields = {"og:type": "article" if relative.startswith("blog/") else "website", "og:locale": "vi_VN", "og:site_name": "DearSunday Journal", "og:title": title, "og:description": desc, "og:url": url, "og:image": image_url, "twitter:card": "summary_large_image"}
+    meta = '<!-- public-meta --><link rel="canonical" href="' + escape(url, quote=True) + '">'
+    for key, value in fields.items():
+        attribute = "name" if key.startswith("twitter:") else "property"
+        meta += f'<meta {attribute}="{key}" content="{escape(value, quote=True)}">'
+    meta += '<!-- /public-meta -->'
+    path.write_text(text.replace('</head>', meta + '</head>'), encoding="utf-8")
+    urls.append(url)
+
+sitemap = Element("urlset", xmlns="http://www.sitemaps.org/schemas/sitemap/0.9")
+for url in urls:
+    SubElement(SubElement(sitemap, "url"), "loc").text = url
+ElementTree(sitemap).write(ROOT / "sitemap.xml", encoding="utf-8", xml_declaration=True)
+(ROOT / "robots.txt").write_text(f"User-agent: *\nAllow: /\n\nUser-agent: OAI-SearchBot\nAllow: /\n\nSitemap: {BASE}sitemap.xml\n", encoding="utf-8")
+for path in [*pages, ROOT / "sitemap.xml", ROOT / "robots.txt", ROOT / "styles.css", ROOT / "favicon.svg", ROOT / ".nojekyll"]:
+    target = ROOT / "dist" / path.relative_to(ROOT)
+    target.parent.mkdir(parents=True, exist_ok=True)
+    shutil.copy2(path, target)
+print(f"Prepared {len(urls)} public URLs and synchronized dist")
