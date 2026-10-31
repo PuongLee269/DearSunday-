@@ -3,5 +3,3 @@ Allow: /
 
 User-agent: OAI-SearchBot
 Allow: /
-
-Sitemap: https://hung-vu-hub.syrupypony514.chatgpt.site/sitemap.xml

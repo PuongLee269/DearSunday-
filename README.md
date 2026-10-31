@@ -1,14 +1,22 @@
-# Website Hùng Vũ — bản xem trước
+# DearSunday Journal
 
-Website tĩnh, responsive, tách riêng ba chủ đề: DearSunday, kênh cá nhân và lớp học. Mở `index.html` để xem trong trình duyệt.
+Static Vietnamese blog for DearSunday private homestay. The site is focused on helpful, original guides for couples, Thanh Xuân and Hà Nội; the exact accommodation address is not published.
 
-## Trước khi xuất bản
+## Files
 
-- Đổi URL mặc định của Sites sang domain riêng nếu sau này có; hiện canonical, JSON-LD và sitemap dùng URL Sites.
-- Ảnh được phép dùng theo xác nhận của Hùng; không đưa địa chỉ nhà/định vị chính xác lên mã nguồn công khai.
-- Bổ sung chủ đề/đường dẫn kênh cá nhân, môn học, lịch, địa điểm/hình thức và kênh đăng ký từ thông tin Hùng xác nhận.
-- Xác nhận mô tả DearSunday và quyền dùng tên/nội dung trên website do Hùng vận hành.
-- Triển khai HTTPS; kiểm tra robots.txt để cho phép OAI-SearchBot và các crawler cần thiết; xác minh tên miền trong Google Search Console và gửi sitemap.
-- `OAI-SearchBot` được cho phép để website đủ điều kiện được khám phá trong ChatGPT Search; chưa đặt chính sách riêng cho GPTBot.
+- `index.html`: journal home and article index
+- `about.html`: verified DearSunday overview and current service windows
+- `blog/`: six search-focused guides with distinct optimized room images
+- `images/`: WebP room photographs, oriented from the source image metadata
+- `generate_articles.py`: regenerates the six article pages
+- `dist/`: static deployment package for Codex Sites and GitHub Pages
 
-Chưa có dịch vụ hosting, tên miền hay thông tin xác minh Google Search Console trong workspace này. Đây là bản preview, chưa được xuất bản công khai.
+## Before publishing
+
+- Set canonical links and `sitemap.xml` after the final public hostname is chosen.
+- Recheck the service windows and activity details with the Page before each substantive update.
+- Keep the precise address private; it is shared by DearSunday after booking.
+- Keep OAI-SearchBot allowed in `robots.txt` if ChatGPT Search visibility is desired.
+- Submit the final sitemap in Google Search Console after the site is public and verified.
+
+The current work is an unpublished draft. A public deployment and Google indexing are separate steps; neither ranking nor inclusion is guaranteed.
