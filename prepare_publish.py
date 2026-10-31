@@ -45,5 +45,10 @@ ElementTree(sitemap).write(ROOT / "sitemap.xml", encoding="utf-8", xml_declarati
 for path in [*pages, ROOT / "sitemap.xml", ROOT / "robots.txt", ROOT / "styles.css", ROOT / "favicon.svg", ROOT / ".nojekyll"]:
     target = ROOT / "dist" / path.relative_to(ROOT)
     target.parent.mkdir(parents=True, exist_ok=True)
-    shutil.copy2(path, target)
+    if path.suffix == ".html":
+        # GitHub Pages publishes the repository root, including this bundle.
+        # Keep /dist/ available for other hosting but exclude its duplicate pages.
+        target.write_text(path.read_text(encoding="utf-8").replace('content="index,follow,max-image-preview:large"', 'content="noindex,follow"'), encoding="utf-8")
+    else:
+        shutil.copy2(path, target)
 print(f"Prepared {len(urls)} public URLs and synchronized dist")
