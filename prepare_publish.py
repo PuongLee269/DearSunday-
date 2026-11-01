@@ -5,12 +5,13 @@ from urllib.parse import urljoin
 import json
 import re
 import shutil
-from xml.etree.ElementTree import Element, SubElement, ElementTree
+from xml.etree.ElementTree import Element, SubElement, ElementTree, register_namespace, indent
 
 ROOT = Path(__file__).resolve().parent
 BASE = "https://puonglee269.github.io/DearSunday-/"
 pages = [ROOT / "index.html", ROOT / "about.html", *sorted((ROOT / "blog").glob("*.html"))]
 urls = []
+page_images = {}
 for path in pages:
     relative = path.relative_to(ROOT).as_posix()
     url = BASE if relative == "index.html" else urljoin(BASE, relative)
@@ -36,13 +37,24 @@ for path in pages:
     meta += '<!-- /public-meta -->'
     path.write_text(text.replace('</head>', meta + '</head>'), encoding="utf-8")
     urls.append(url)
+    page_images[url] = sorted({urljoin(urljoin(BASE, relative), src) for src in re.findall(r'<img[^>]+src="([^"]+)"', text)})
 
-sitemap = Element("urlset", xmlns="http://www.sitemaps.org/schemas/sitemap/0.9")
+SM = "http://www.sitemaps.org/schemas/sitemap/0.9"
+IM = "http://www.google.com/schemas/sitemap-image/1.1"
+register_namespace("", SM)
+register_namespace("image", IM)
+sitemap = Element(f"{{{SM}}}urlset")
 for url in urls:
-    SubElement(SubElement(sitemap, "url"), "loc").text = url
+    entry = SubElement(sitemap, f"{{{SM}}}url")
+    SubElement(entry, f"{{{SM}}}loc").text = url
+    for image_url in page_images[url]:
+        image_entry = SubElement(entry, f"{{{IM}}}image")
+        SubElement(image_entry, f"{{{IM}}}loc").text = image_url
+indent(sitemap, space="  ")
 ElementTree(sitemap).write(ROOT / "sitemap.xml", encoding="utf-8", xml_declaration=True)
+(ROOT / "sitemap.txt").write_text("\n".join(urls) + "\n", encoding="utf-8")
 (ROOT / "robots.txt").write_text(f"User-agent: *\nAllow: /\n\nUser-agent: OAI-SearchBot\nAllow: /\n\nSitemap: {BASE}sitemap.xml\n", encoding="utf-8")
-for path in [*pages, ROOT / "sitemap.xml", ROOT / "robots.txt", ROOT / "styles.css", ROOT / "favicon.svg", ROOT / ".nojekyll"]:
+for path in [*pages, ROOT / "sitemap.xml", ROOT / "sitemap.txt", ROOT / "robots.txt", ROOT / "styles.css", ROOT / "favicon.svg", ROOT / ".nojekyll"]:
     target = ROOT / "dist" / path.relative_to(ROOT)
     target.parent.mkdir(parents=True, exist_ok=True)
     if path.suffix == ".html":
