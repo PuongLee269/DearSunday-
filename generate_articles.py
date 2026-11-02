@@ -11,14 +11,14 @@ ARTICLES = [
         "slug": "homestay-rieng-tu-cho-cap-doi-thanh-xuan",
         "n": "01",
         "tag": "HOMESTAY RIÊNG TƯ · THANH XUÂN",
-        "title": "Chọn homestay riêng tư cho cặp đôi ở Thanh Xuân: bắt đầu từ đâu?",
-        "desc": "Cách chọn homestay riêng tư cho cặp đôi ở Thanh Xuân: cân nhắc khu vực, mức độ phù hợp của không gian với kế hoạch và cách xác nhận thông tin trước khi đi.",
+        "title": "Homestay Thanh Xuân cho hai người: cách chọn chỗ nghỉ phù hợp",
+        "desc": "Đang tìm homestay Thanh Xuân cho hai người? Xem cách chọn không gian riêng tư, kiểm tra tiện ích và xác nhận thông tin trước khi đặt DearSunday.",
         "image": "room-bed-art.webp",
         "alt": "Giường nghỉ và tranh màu trong không gian private homestay DearSunday tại Thanh Xuân",
         "faq_q": "DearSunday ở khu vực nào?",
         "faq_a": "DearSunday ở khu vực Triều Khúc, Thanh Xuân, Hà Nội. Địa chỉ cụ thể được gửi riêng sau khi đặt.",
         "toc": [("Bắt đầu từ khu vực", "khu-vuc"), ("Chọn không gian hợp kế hoạch", "khong-gian"), ("Đối chiếu sức chứa và mục đích", "muc-dich"), ("Kiểm tra thông tin trước khi đi", "kiem-tra")],
-        "body": """<p class="lead">Khi tìm <strong>homestay riêng tư cho cặp đôi ở Thanh Xuân</strong>, hãy bắt đầu bằng khu vực và mức độ phù hợp của không gian với kế hoạch hai người. Bài này giúp bạn sàng lọc lựa chọn; phần lịch, chi phí và điều kiện đặt cần xác nhận riêng với nơi lưu trú.</p>
+        "body": """<p class="lead">Khi tìm <strong>homestay Thanh Xuân</strong> cho hai người, hãy bắt đầu bằng khu vực và mức độ phù hợp của không gian với kế hoạch hai người. Bài này giúp bạn sàng lọc lựa chọn; phần lịch, chi phí và điều kiện đặt cần xác nhận riêng với nơi lưu trú.</p>
 <h2 id="khu-vuc">1. Bắt đầu từ khu vực</h2><p>Chọn khu vực thuận tiện cho điểm xuất phát và lịch trình của hai bạn. DearSunday ở khu vực Triều Khúc, Thanh Xuân, Hà Nội; địa chỉ cụ thể được gửi riêng sau khi đặt. Hãy hỏi hướng dẫn di chuyển trong tin nhắn riêng trước khi lên đường, không chia sẻ địa chỉ riêng tư ở nơi công khai.</p>
 <h2 id="khong-gian">2. Chọn không gian hợp kế hoạch</h2><p>Đừng chỉ dựa vào ảnh trang trí. Nghĩ về cách hai bạn muốn dùng thời gian: nghỉ ngơi, trò chuyện hay cùng làm một hoạt động. Sau đó xem ảnh và mô tả hiện có để tự đánh giá liệu không gian có phù hợp với mục đích đó không. Nếu có điều kiện cụ thể quan trọng, hỏi trực tiếp thay vì suy luận từ ảnh.</p>
 <h2 id="muc-dich">3. Đối chiếu sức chứa và mục đích</h2><p>Xác nhận số khách được nhận và liệu khung giờ phù hợp với kế hoạch. DearSunday dành cho 1–2 người. Nếu muốn thêm hoạt động như vẽ, nặn đất sét hoặc nấu ăn, Page giới thiệu các lựa chọn này; hãy hỏi hoạt động nào có vào ngày dự định cùng thời lượng và chi phí áp dụng.</p>
