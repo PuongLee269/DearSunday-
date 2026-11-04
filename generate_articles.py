@@ -17,7 +17,7 @@ ARTICLES = [
         "desc": "Tìm homestay Thanh Xuân cho 1–2 người? Tìm hiểu DearSunday ở Triều Khúc và các thông tin nên xác nhận về lịch, chi phí, không gian trước khi đặt.",
         "modified": "2026-11-04",
         "image": "room-bed-art.webp",
-        "alt": "Giường nghỉ và tranh màu trong không gian private homestay DearSunday tại Thanh Xuân",
+        "alt": "Giường với gối hình vịt màu vàng và những bức tranh vẽ nhiều màu trên tường",
         "faq_q": "DearSunday ở khu vực nào?",
         "faq_a": "DearSunday ở khu vực Triều Khúc, Thanh Xuân, Hà Nội. Địa chỉ cụ thể được gửi riêng sau khi đặt.",
         "faq_extra": [("DearSunday dành cho mấy người?", "DearSunday dành cho 1–2 người. Hãy nhắn Page để xác nhận thông tin phù hợp với ngày và kế hoạch của bạn."), ("Lịch và chi phí có cố định không?", "Lịch trống và chi phí cần được xác nhận theo ngày, khung giờ và lựa chọn dịch vụ. Nhắn Page DearSunday để nhận thông tin hiện tại trước khi đặt."), ("Giá homestay Thanh Xuân của DearSunday được tính thế nào?", "Chi phí cần được xác nhận theo ngày, khung giờ và dịch vụ bạn chọn; bài này không niêm yết mức giá cố định. Khi hỏi, hãy xin tổng chi phí và các khoản đã bao gồm trước khi đặt.")],
