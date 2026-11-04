@@ -23,7 +23,8 @@ for path in pages:
     image_url = urljoin(urljoin(BASE, relative), image)
     def update_schema(match):
         data = json.loads(match[1])
-        data["url"] = url
+        if data.get("@type") != "BreadcrumbList":
+            data["url"] = url
         if data.get("@type") == "BlogPosting":
             data["mainEntityOfPage"] = {"@type": "WebPage", "@id": url}
             data["image"] = [image_url]
