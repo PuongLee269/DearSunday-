@@ -16,6 +16,7 @@ Static Vietnamese blog for DearSunday private homestay. The site is focused on h
 - Public URL: https://puonglee269.github.io/DearSunday-/
 - GitHub Pages publishes `main` from the repository root.
 - After editing articles, run `python -B generate_articles.py` and then `python -B prepare_publish.py`. The second command sets canonical, social and article image URLs, refreshes the sitemap, and synchronizes `dist/`.
+- Before reviewing or merging a local change, run `python -B check_seo.py` to verify canonicals, sitemap URLs, metadata, JSON-LD, local resources, and the synchronized `dist/` bundle.
 - If changing the public hostname, update `BASE` in `prepare_publish.py` before running it.
 - Recheck the service windows and activity details with the Page before each substantive update.
 - Keep the precise address private; it is shared by DearSunday after booking.
