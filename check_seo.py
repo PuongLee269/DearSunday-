@@ -9,7 +9,7 @@ import re
 from html import unescape
 
 ROOT = Path(__file__).resolve().parent
-BASE = "https://puonglee269.github.io/DearSunday-/"
+BASE = "https://dearsunday.moriclass.com/"
 SITEMAP_NS = {"sm": "http://www.sitemaps.org/schemas/sitemap/0.9"}
 
 

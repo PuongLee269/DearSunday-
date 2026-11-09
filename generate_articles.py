@@ -6,7 +6,7 @@ import re
 ROOT = Path(__file__).parent
 (ROOT / "blog").mkdir(exist_ok=True)
 PAGE = "https://www.facebook.com/profile.php?id=61594563777409"
-SITE = "https://puonglee269.github.io/DearSunday-/"
+SITE = "https://dearsunday.moriclass.com/"
 ARTICLES = [
     {
         "slug": "homestay-rieng-tu-cho-cap-doi-thanh-xuan",

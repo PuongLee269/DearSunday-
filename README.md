@@ -13,8 +13,9 @@ Static Vietnamese blog for DearSunday private homestay. The site is focused on h
 
 ## Publishing
 
-- Public URL: https://puonglee269.github.io/DearSunday-/
+- Public URL: https://dearsunday.moriclass.com/
 - GitHub Pages publishes `main` from the repository root.
+- `CNAME` binds the GitHub Pages project to `dearsunday.moriclass.com`; DNS must point that subdomain to `PuongLee269.github.io` before HTTPS can be issued.
 - After editing articles, run `python -B generate_articles.py` and then `python -B prepare_publish.py`. The second command sets canonical, social and article image URLs, refreshes the sitemap, and synchronizes `dist/`.
 - Before reviewing or merging a local change, run `python -B check_seo.py` to verify canonicals, sitemap URLs, metadata, JSON-LD, local resources, and the synchronized `dist/` bundle.
 - If changing the public hostname, update `BASE` in `prepare_publish.py` before running it.
@@ -23,4 +24,4 @@ Static Vietnamese blog for DearSunday private homestay. The site is focused on h
 - Keep OAI-SearchBot allowed in `robots.txt` if ChatGPT Search visibility is desired.
 - Submit the final sitemap in Google Search Console after the site is public and verified.
 
-Google indexing is separate from deployment. Verify the URL-prefix property in Search Console and submit `sitemap.xml`; neither ranking nor inclusion is guaranteed. On a GitHub project site, crawler rules are controlled by the domain-root robots.txt; the project-local robots.txt is included for migration to a dedicated domain.
+Google indexing is separate from deployment. Verify the URL-prefix property `https://dearsunday.moriclass.com/` in Search Console and submit `sitemap.xml`; neither ranking nor inclusion is guaranteed.

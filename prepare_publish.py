@@ -8,7 +8,7 @@ import shutil
 from xml.etree.ElementTree import Element, SubElement, ElementTree, register_namespace, indent
 
 ROOT = Path(__file__).resolve().parent
-BASE = "https://puonglee269.github.io/DearSunday-/"
+BASE = "https://dearsunday.moriclass.com/"
 pages = [ROOT / "index.html", ROOT / "about.html", *sorted((ROOT / "blog").glob("*.html"))]
 urls = []
 page_images = {}
@@ -55,7 +55,7 @@ indent(sitemap, space="  ")
 ElementTree(sitemap).write(ROOT / "sitemap.xml", encoding="utf-8", xml_declaration=True)
 (ROOT / "sitemap.txt").write_text("\n".join(urls) + "\n", encoding="utf-8")
 (ROOT / "robots.txt").write_text(f"User-agent: *\nAllow: /\n\nUser-agent: OAI-SearchBot\nAllow: /\n\nSitemap: {BASE}sitemap.xml\n", encoding="utf-8")
-for path in [*pages, ROOT / "sitemap.xml", ROOT / "sitemap.txt", ROOT / "robots.txt", ROOT / "styles.css", ROOT / "favicon.svg", ROOT / ".nojekyll"]:
+for path in [*pages, ROOT / "sitemap.xml", ROOT / "sitemap.txt", ROOT / "robots.txt", ROOT / "styles.css", ROOT / "favicon.svg", ROOT / ".nojekyll", ROOT / "CNAME"]:
     target = ROOT / "dist" / path.relative_to(ROOT)
     target.parent.mkdir(parents=True, exist_ok=True)
     if path.suffix == ".html":

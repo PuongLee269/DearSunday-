@@ -4,4 +4,4 @@ Allow: /
 User-agent: OAI-SearchBot
 Allow: /
 
-Sitemap: https://puonglee269.github.io/DearSunday-/sitemap.xml
+Sitemap: https://dearsunday.moriclass.com/sitemap.xml
