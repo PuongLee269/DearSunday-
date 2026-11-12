@@ -9,7 +9,7 @@ from xml.etree.ElementTree import Element, SubElement, ElementTree, register_nam
 
 ROOT = Path(__file__).resolve().parent
 BASE = "https://dearsunday.moriclass.com/"
-pages = [ROOT / "index.html", ROOT / "about.html", *sorted((ROOT / "blog").glob("*.html"))]
+pages = [ROOT / "index.html", ROOT / "about.html", ROOT / "lich.html", *sorted((ROOT / "blog").glob("*.html"))]
 urls = []
 page_images = {}
 for path in pages:
