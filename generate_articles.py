@@ -12,10 +12,10 @@ ARTICLES = [
         "slug": "homestay-rieng-tu-cho-cap-doi-thanh-xuan",
         "n": "01",
         "tag": "HOMESTAY RIÊNG TƯ · THANH XUÂN",
-        "title": "Homestay riêng tư cho hai người ở Thanh Xuân: 5 điều cần biết",
-        "title_suffix": "Cẩm nang",
+        "title": "Homestay riêng tư cho hai người ở Thanh Xuân",
+        "title_suffix": "DearSunday",
         "desc": "Chọn homestay riêng tư cho hai người ở Thanh Xuân: đối chiếu khu vực, sức chứa, khung lưu trú, lịch và chi phí trước khi đặt. Tìm hiểu thông tin DearSunday.",
-        "modified": "2026-11-07",
+        "modified": "2026-11-12",
         "image": "room-bed-art.webp",
         "alt": "Giường với gối hình vịt màu vàng và những bức tranh vẽ nhiều màu trên tường",
         "faq_q": "DearSunday ở khu vực nào?",
@@ -34,14 +34,15 @@ ARTICLES = [
         "title": "Thuê homestay theo giờ ở Hà Nội: cách chọn khung phù hợp",
         "desc": "Cách chọn thời lượng thuê homestay ở Hà Nội theo mục đích chuyến đi, thời gian di chuyển, giờ nhận-trả và chi phí cần xác nhận.",
         "image": "room-living-room.webp", "alt": "Không gian phòng khách sáng tại DearSunday, private homestay ở Hà Nội",
+        "modified": "2026-11-12",
         "faq_q": "Khung ban ngày của DearSunday có phải tính tiền từng giờ không?",
         "faq_a": "Page giới thiệu khung ban ngày cố định 12:30–20:30 (8 tiếng), không phải gói tính phí từng giờ. Hỏi Page mức phí hiện tại cho ngày bạn muốn đi.",
         "toc": [("Bắt đầu từ việc bạn muốn làm", "muc-tieu"), ("So giờ thực dùng với thời lượng thuê", "thoi-luong"), ("Xác nhận giờ nhận và trả", "nhan-tra"), ("Đừng chỉ so giá ban đầu", "chi-phi")],
         "body": """<p class="lead">Cụm từ <strong>homestay thuê theo giờ Hà Nội</strong> có thể chỉ nhiều cách tính thời gian khác nhau. Có nơi chia theo từng giờ, có nơi bán một khung ban ngày cố định. Trước khi đặt, hãy kiểm tra giờ bắt đầu, giờ kết thúc và tổng thời lượng thực sự có mặt — đừng chỉ dựa vào tên gói.</p>
 <h2 id="muc-tieu">Bắt đầu từ việc bạn muốn làm</h2><p>Buổi nghỉ ngắn, một buổi hẹn dài và chuyến qua đêm là ba mục đích khác nhau. Viết ra điều quan trọng nhất: nghỉ ngơi, có không gian riêng, kỷ niệm dịp đặc biệt hay cùng làm một hoạt động. Sau đó chọn nơi và khung giờ đáp ứng mục đích đó.</p><p>Nếu muốn thử vẽ hoặc nấu ăn cùng nhau, cần tính cả thời gian nhận phòng, sắp xếp đồ, làm hoạt động và nghỉ. Nếu chỉ muốn thư giãn, một lịch trình ít điểm dừng có thể hợp hơn.</p>
-<h2 id="thoi-luong">So thời gian thực dùng với thời lượng thuê</h2><p>Tính từ lúc dự kiến đến nơi đến lúc cần rời đi. Cộng thêm thời gian đi lại, ăn uống và khoảng đệm trước giờ trả phòng. Nếu khung thuê vừa khít trên giấy, chỉ một chặng đường trễ cũng có thể làm buổi hẹn bị gấp.</p><p>DearSunday giới thiệu khung ban ngày cố định 12:30–20:30, tổng cộng 8 tiếng; đây không phải giá theo từng giờ. Page cũng có khung qua đêm 14:00–11:00 hôm sau và mục “Chỉ ở đêm” 22:00–11:00. Hãy nhắn Page kiểm tra khung phù hợp và lịch còn trống.</p>
+<h2 id="thoi-luong">So thời gian thực dùng với thời lượng thuê</h2><p>Tính từ lúc dự kiến đến nơi đến lúc cần rời đi. Cộng thêm thời gian đi lại, ăn uống và khoảng đệm trước giờ trả phòng. Nếu khung thuê vừa khít trên giấy, chỉ một chặng đường trễ cũng có thể làm buổi hẹn bị gấp.</p><p>DearSunday giới thiệu khung ban ngày cố định 12:30–20:30, tổng cộng 8 tiếng; đây không phải giá theo từng giờ. Page cũng có khung qua đêm 14:00–11:00 hôm sau và mục “Chỉ ở đêm” 22:00–11:00. Hãy nhắn Page kiểm tra khung phù hợp và lịch còn trống. Bạn có thể xem <a href="../index.html">thông tin homestay DearSunday tại Thanh Xuân</a> trước khi so sánh các lựa chọn.</p>
 <h2 id="nhan-tra">Xác nhận giờ nhận phòng và trả phòng</h2><p>Hỏi rõ thời điểm bắt đầu tính giờ, cách nhận hướng dẫn vào nơi ở, giờ kết thúc và quy trình trả phòng. Nếu có khả năng đến trễ, hỏi trước cách xử lý; đừng mặc định giờ trả phòng được lùi theo giờ đến. Lưu thông tin xác nhận trong cùng một cuộc trò chuyện để dễ xem lại.</p>
-<h2 id="chi-phi">Đừng chỉ so giá ban đầu</h2><p>Hãy đề nghị xác nhận tổng chi phí cho đúng ngày và khung giờ, khoản nào đã bao gồm, phí hoạt động nếu có, cách đặt cọc/thanh toán và điều kiện thay đổi hoặc hủy. Giá và dịch vụ có thể tùy ngày hoặc lựa chọn, nên dùng báo giá Page xác nhận thay vì số liệu cũ trên bài viết.</p><div class="callout">Một khung giờ phù hợp là khung bạn có thể tận hưởng thoải mái sau khi đã tính đường đi, giờ nhận-trả và hoạt động dự định.</div><p>DearSunday ở khu vực Triều Khúc, Thanh Xuân. Địa chỉ chi tiết gửi riêng sau khi đặt. Nhắn Page từ khóa <strong>“Sun”</strong> để hỏi lịch và các khoản cần xác nhận.</p>""",
+<h2 id="chi-phi">Đừng chỉ so giá ban đầu</h2><p>Hãy đề nghị xác nhận tổng chi phí cho đúng ngày và khung giờ, khoản nào đã bao gồm, phí hoạt động nếu có, cách đặt cọc/thanh toán và điều kiện thay đổi hoặc hủy. Giá và dịch vụ có thể tùy ngày hoặc lựa chọn, nên dùng báo giá Page xác nhận thay vì số liệu cũ trên bài viết.</p><div class="callout">Một khung giờ phù hợp là khung bạn có thể tận hưởng thoải mái sau khi đã tính đường đi, giờ nhận-trả và hoạt động dự định.</div><p>DearSunday ở khu vực Triều Khúc, Thanh Xuân. Địa chỉ chi tiết gửi riêng sau khi đặt. Nếu bạn đang tìm chỗ nghỉ riêng cho hai người tại khu vực này, xem <a href="homestay-rieng-tu-cho-cap-doi-thanh-xuan.html">các điểm cần biết khi chọn homestay riêng tư ở Thanh Xuân</a>. Nhắn Page từ khóa <strong>“Sun”</strong> để hỏi lịch và các khoản cần xác nhận.</p>""",
     },
     {
         "slug": "hen-ho-sang-tao-ve-nan-nau", "n": "03", "tag": "Ý TƯỞNG HẸN HÒ · CÙNG SÁNG TẠO",
@@ -76,15 +77,16 @@ ARTICLES = [
         "title": "Đặt homestay qua đêm cho hai người: 6 điều nên hỏi trước",
         "desc": "Giờ nhận-trả, địa chỉ riêng, tổng chi phí, quy định, dịch vụ và cách xác nhận lịch — 6 điều nên hỏi khi đặt homestay qua đêm cho hai người ở Hà Nội.",
         "image": "room-living-sofa.webp", "alt": "Sofa, bàn trà và cây xanh trong căn phòng riêng của DearSunday",
+        "modified": "2026-11-12",
         "faq_q": "DearSunday nhận phòng qua đêm và trả phòng lúc nào?",
         "faq_a": "Khung qua đêm được giới thiệu là nhận phòng 14:00, trả phòng 11:00 hôm sau. Page còn liệt kê khung “Chỉ ở đêm” 22:00–11:00; hãy xác nhận khung còn trống.",
         "toc": [("Kiểm tra giờ nhận và trả", "gio-nhan-tra"), ("Xác nhận vị trí và cách đến", "vi-tri"), ("Hỏi tổng chi phí", "chi-phi"), ("Làm rõ quy định và lựa chọn thêm", "quy-dinh")],
         "body": """<p class="lead">Khi tìm <strong>homestay qua đêm cho hai người ở Hà Nội</strong>, ảnh đẹp chỉ là một phần quyết định. Giờ nhận-trả, cách nhận địa chỉ, tổng chi phí và quy định của nơi ở mới là thông tin giúp chuyến đi diễn ra đúng kế hoạch. Dưới đây là sáu điều nên xác nhận trực tiếp trước khi đặt.</p>
 <h2 id="gio-nhan-tra">1. Giờ nhận phòng và trả phòng là mấy giờ?</h2><p>DearSunday giới thiệu khung qua đêm nhận phòng 14:00, trả phòng 11:00 hôm sau. Page cũng có lựa chọn “Chỉ ở đêm” 22:00–11:00 hôm sau. Hãy xác nhận loại khung đang còn, ngày cụ thể và giờ áp dụng cho đặt chỗ của bạn.</p>
-<h2 id="vi-tri">2. Địa chỉ và hướng dẫn đến nơi được gửi thế nào?</h2><p>DearSunday ở khu vực Triều Khúc, Thanh Xuân; địa chỉ cụ thể được gửi riêng sau khi đặt. Trước khi xác nhận, hỏi thời điểm nhận hướng dẫn, cách di chuyển và đầu mối liên hệ nếu cần hỗ trợ. Giữ thông tin địa chỉ trong tin nhắn riêng, không đăng lại công khai.</p>
+<h2 id="vi-tri">2. Địa chỉ và hướng dẫn đến nơi được gửi thế nào?</h2><p>DearSunday ở khu vực Triều Khúc, Thanh Xuân; địa chỉ cụ thể được gửi riêng sau khi đặt. Trước khi xác nhận, hỏi thời điểm nhận hướng dẫn, cách di chuyển và đầu mối liên hệ nếu cần hỗ trợ. Giữ thông tin địa chỉ trong tin nhắn riêng, không đăng lại công khai. Nếu bạn đang so sánh lựa chọn trong khu vực, xem thêm <a href="homestay-rieng-tu-cho-cap-doi-thanh-xuan.html">hướng dẫn chọn homestay riêng tư cho hai người ở Thanh Xuân</a>.</p>
 <h2 id="chi-phi">3. Tổng chi phí và cách thanh toán ra sao?</h2><p>Nhờ Page xác nhận giá cuối cùng cho ngày và khung giờ đã chọn, khoản nào đã bao gồm, phương thức thanh toán, tiền cọc nếu có và điều kiện hoàn/đổi. Giá có thể thay đổi theo ngày hoặc lựa chọn; hãy căn cứ vào thông tin Page gửi cho lịch cụ thể, không dựa vào giá cũ trên bài viết.</p>
 <h2 id="quy-dinh">4. Quy định tại homestay là gì?</h2><p>Hỏi về số người được lưu trú, giờ yên tĩnh, việc mang đồ ăn/thức uống, khách đến cùng và quy trình trả phòng. Chỉ cần hỏi những điều liên quan đến kế hoạch của mình, rồi đọc lại hướng dẫn trước khi xác nhận.</p><h3>5. Có lựa chọn trải nghiệm nào?</h3><p>Nếu muốn thêm vẽ, nặn đất sét, nấu ăn hoặc combo kỷ niệm, hỏi xem lựa chọn nào có vào ngày đó, mức phí, thời lượng và cần chuẩn bị gì. Không phải hoạt động nào cũng mặc định bao gồm trong khung nghỉ.</p><h3>6. Khi nào lịch được giữ chỗ?</h3><p>Hỏi bước xác nhận đặt, thời hạn thanh toán nếu có và cách nhận thông báo cuối cùng. Chỉ xem lịch là chắc chắn khi Page xác nhận rõ trạng thái đặt chỗ.</p>
-<ul class="quick-list"><li>Ngày lưu trú và khung qua đêm/ở đêm</li><li>Giờ nhận-trả và địa chỉ gửi riêng</li><li>Tổng chi phí, cách thanh toán, điều kiện đổi/hủy</li><li>Quy định và dịch vụ muốn thêm</li></ul><p>DearSunday dành cho 1–2 người tại Triều Khúc, Thanh Xuân. Nhắn Page từ khóa <strong>“Sun”</strong> để hỏi lịch; mọi chi tiết cụ thể cần được Page xác nhận.</p>""",
+<ul class="quick-list"><li>Ngày lưu trú và khung qua đêm/ở đêm</li><li>Giờ nhận-trả và địa chỉ gửi riêng</li><li>Tổng chi phí, cách thanh toán, điều kiện đổi/hủy</li><li>Quy định và dịch vụ muốn thêm</li></ul><p>DearSunday dành cho 1–2 người tại Triều Khúc, Thanh Xuân. Xem <a href="../index.html">thông tin homestay DearSunday tại Thanh Xuân</a> rồi nhắn Page từ khóa <strong>“Sun”</strong> để hỏi lịch; mọi chi tiết cụ thể cần được Page xác nhận.</p>""",
     },
     {
         "slug": "cau-hoi-truoc-khi-dat-homestay-rieng-tu", "n": "06", "tag": "CHECKLIST ĐẶT PHÒNG · PRIVATE HOMESTAY",
