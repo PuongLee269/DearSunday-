@@ -15,14 +15,14 @@ ARTICLES = [
         "title": "Homestay riêng tư cho hai người ở Thanh Xuân",
         "title_suffix": "DearSunday",
         "desc": "Chọn homestay riêng tư cho hai người ở Thanh Xuân: đối chiếu khu vực, sức chứa, khung lưu trú, lịch và chi phí trước khi đặt. Tìm hiểu thông tin DearSunday.",
-        "modified": "2026-11-12",
+        "modified": "2026-11-13",
         "image": "room-bed-art.webp",
         "alt": "Giường với gối hình vịt màu vàng và những bức tranh vẽ nhiều màu trên tường",
         "faq_q": "DearSunday ở khu vực nào?",
         "faq_a": "DearSunday ở khu vực Triều Khúc, Thanh Xuân, Hà Nội. Địa chỉ cụ thể được gửi riêng sau khi đặt.",
         "faq_extra": [("DearSunday dành cho mấy người?", "DearSunday dành cho 1–2 người. Hãy nhắn Page để xác nhận thông tin phù hợp với ngày và kế hoạch của bạn."), ("Lịch và chi phí có cố định không?", "Lịch trống và chi phí cần được xác nhận theo ngày, khung giờ và lựa chọn dịch vụ. Nhắn Page DearSunday để nhận thông tin hiện tại trước khi đặt."), ("Giá homestay Thanh Xuân của DearSunday được tính thế nào?", "Chi phí cần được xác nhận theo ngày, khung giờ và dịch vụ bạn chọn; bài này không niêm yết mức giá cố định. Khi hỏi, hãy xin tổng chi phí và các khoản đã bao gồm trước khi đặt.")],
         "toc": [("Bắt đầu từ khu vực", "khu-vuc"), ("Chọn không gian hợp kế hoạch", "khong-gian"), ("Đối chiếu sức chứa và mục đích", "muc-dich"), ("Kiểm tra thông tin trước khi đi", "kiem-tra"), ("Các điểm cần xác nhận", "diem-can-xac-nhan")],
-        "body": """<p class="lead">Nếu đang tìm <strong>homestay riêng tư cho hai người ở Thanh Xuân</strong>, hãy đối chiếu khu vực, sức chứa, khung giờ và điều kiện đặt với kế hoạch của hai bạn. DearSunday ở khu vực Triều Khúc, Thanh Xuân, Hà Nội; lịch, chi phí và lựa chọn dịch vụ cần xác nhận trực tiếp trước khi chốt.</p>
+        "body": """<p class="lead">Nếu đang tìm <strong>homestay riêng tư cho hai người ở Thanh Xuân</strong>, hãy đối chiếu khu vực, sức chứa, khung giờ và điều kiện đặt với kế hoạch của hai bạn. DearSunday ở khu vực Triều Khúc, Thanh Xuân, Hà Nội; lịch, chi phí và lựa chọn dịch vụ cần xác nhận trực tiếp trước khi chốt. Bạn có thể xem <a href="../index.html">trang tổng quan homestay Thanh Xuân tại DearSunday</a> trước khi đối chiếu từng lựa chọn.</p>
 <h2 id="khu-vuc">1. Bắt đầu từ khu vực</h2><p>Chọn khu vực thuận tiện cho điểm xuất phát và lịch trình của hai bạn. DearSunday ở khu vực Triều Khúc, Thanh Xuân, Hà Nội; địa chỉ cụ thể được gửi riêng sau khi đặt. Hãy hỏi hướng dẫn di chuyển trong tin nhắn riêng trước khi lên đường, không chia sẻ địa chỉ riêng tư ở nơi công khai.</p>
 <h2 id="khong-gian">2. Chọn không gian hợp kế hoạch</h2><p>Đừng chỉ dựa vào ảnh trang trí. Nghĩ về cách hai bạn muốn dùng thời gian: nghỉ ngơi, trò chuyện hay cùng làm một hoạt động. Sau đó xem ảnh và mô tả hiện có để tự đánh giá liệu không gian có phù hợp với mục đích đó không. Nếu có điều kiện cụ thể quan trọng, hỏi trực tiếp thay vì suy luận từ ảnh.</p>
 <h2 id="muc-dich">3. Đối chiếu sức chứa và mục đích</h2><p>Xác nhận số khách được nhận và liệu khung giờ phù hợp với kế hoạch. DearSunday dành cho 1–2 người. Nếu muốn thêm hoạt động như vẽ, nặn đất sét hoặc nấu ăn, Page giới thiệu các lựa chọn này; hãy hỏi hoạt động nào có vào ngày dự định cùng thời lượng và chi phí áp dụng.</p>
