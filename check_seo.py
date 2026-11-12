@@ -96,7 +96,7 @@ class PageParser(HTMLParser):
 
 
 def page_paths(root):
-    return [root / "index.html", root / "about.html", *sorted((root / "blog").glob("*.html"))]
+    return [root / "index.html", root / "about.html", root / "lich.html", *sorted((root / "blog").glob("*.html"))]
 
 
 def page_url(path, root):
