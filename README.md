@@ -20,7 +20,7 @@ Static Vietnamese blog for DearSunday private homestay. The site is focused on h
 - After editing articles, run `python -B generate_articles.py` and then `python -B prepare_publish.py`. The second command sets canonical, social and article image URLs, refreshes the sitemap, and synchronizes `dist/`.
 - Before reviewing or merging a local change, run `python -B check_seo.py` to verify canonicals, sitemap URLs, metadata, JSON-LD, local resources, and the synchronized `dist/` bundle.
 - If changing the public hostname, update `BASE` in `prepare_publish.py` before running it.
-- When replacing a room image, regenerate its responsive WebP variants and update the matching `srcset` width descriptors in `index.html` or `generate_articles.py`; width descriptors must match each file's actual pixel width. The publication script copies existing variants but does not generate them.
+- When replacing a room image, regenerate its responsive WebP variants and update the matching `srcset` width descriptors in `index.html`, `lich.html`, or `generate_articles.py`; width descriptors must match each file's actual pixel width. The publication script copies existing variants but does not generate them.
 - Recheck the service windows and activity details with the Page before each substantive update.
 - Keep the precise address private; it is shared by DearSunday after booking.
 - Keep OAI-SearchBot allowed in `robots.txt` if ChatGPT Search visibility is desired.
